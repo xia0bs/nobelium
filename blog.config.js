@@ -2,7 +2,7 @@ const BLOG = {
   title: 'Yanng 的独立博客',
   author: 'Yanng',
   email: 'y719398840@gmail.com',
-  link: 'wapper.pro',
+  link: 'yanng.cn',
   description: '被你发现了！',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -16,8 +16,8 @@ const BLOG = {
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/craigaryhart',
+  ogImageGenerateURL: 'https://pbs.twimg.com/profile_images/1441255815915081729/GUp0h1Rn_400x400.jpg', // The link to generate OG image, don't end with a slash
+  socialLink: 'https://twitter.com/yanng961',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
