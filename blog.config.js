@@ -14,7 +14,7 @@ const BLOG = {
   postsPerPage: 7,
   sortByDate: true,
   showAbout: false,
-  showArchive: false,
+  showArchive: true,
   autoCollapsedNavBar: true, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/94e0c14d-e3fc-47c3-ba7c-28f8d4183bca/FBFD8590-29EF-49BC-ACE7-13E2B02D3A6D.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220206%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220206T065941Z&X-Amz-Expires=86400&X-Amz-Signature=61155275513f3221c04d921e85ff0f74cd5d06a1dc4baa399203fc917a19f094&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22FBFD8590-29EF-49BC-ACE7-13E2B02D3A6D.jpeg%22&x-id=GetObject', // The link to generate OG image, don't end with a slash
   socialLink: '',
@@ -37,7 +37,7 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'cusdis', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
       repo: '', // The repository of store comments
       owner: '',
@@ -50,7 +50,7 @@ const BLOG = {
       repo: ''
     },
     cusdisConfig: {
-      appId: '', // data-app-id
+      appId: 'bb379c36-9967-4ded-bf43-9135c1b1f641', // data-app-id
       host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
       scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
     }
